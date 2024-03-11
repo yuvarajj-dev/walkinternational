@@ -1,0 +1,55 @@
+.navbar {
+    padding: 0 1.5rem;
+    min-height: 3rem;
+    font-family: "Sora", sans-serif;
+}
+
+.nav-logo {
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem 0;
+}
+.Nav-text-div{
+    font-size: .90rem;
+    font-weight: 450;
+}
+.Nav-text-div , .list-div ul li{
+    color: #082f49!important;
+}
+
+.nav-logo.res {
+    width: 1.5rem;
+    height: 1rem;
+}
+
+.darrow {
+    width: 15px;
+    height: 13px;
+}
+.sign-div img{
+    width: 20px;
+    height: 24px;
+    fill: #082f49!important;
+}
+.navbar-sec-div{
+    border-left: 1px solid rgb(209, 209, 209);
+}
+.Nav-btn{
+    border: 2px solid #013a8b;
+    padding: .6rem 1.5rem;
+    border-radius: 10px;
+}
+.nav-icon{
+    width: 24px;
+    height: 17px;
+}
+
+@media (width <= 1024px){
+    .navbar{
+        min-height: 1rem;
+    }
+    .navbar-sec-div{
+        border: none;
+    }
+
+}
