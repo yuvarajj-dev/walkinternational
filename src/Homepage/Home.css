@@ -1,0 +1,130 @@
+.Hero {
+    height: 100vh;
+    background-color: #013a8b;
+    font-family: "Sora", sans-serif;
+}
+
+.hero-head-div {
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.hero-head-div p {
+    width: 50rem;
+}
+
+.hero-num-rais-main {
+    border-radius: 15px; /*1*/
+    background: linear-gradient(270deg, rgb(3, 76, 181) 0%, rgb(6, 176, 239) 35%, rgb(3, 76, 181) 100%);
+    height: 3.5rem;
+    width: 60%;
+    padding: 2px;
+}
+.hero-num-rais{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #013a8b;
+    padding: 5px;
+}
+.hero-num-rais div{
+    display: flex;
+    align-items: center ;
+}
+.hero-num-rais div p:first-child{
+    font-size: 1.7rem;
+    margin-right: .5rem;
+}
+.auto-com-main{
+    padding: 2px;
+    background-color: #013a8b;
+    width: 70%;
+    height: 6rem;
+}
+.autocomplete-main{
+    border-radius: 15px; /*1*/
+    background: linear-gradient(270deg, rgb(3, 76, 181) 0%, rgb(6, 176, 239) 35%, rgb(3, 76, 181) 100%);
+    height: 5.5rem;
+    width: 70%;
+    padding: 2px;
+}
+.autocomplet-second-div{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 5px;
+    border-left: 1px solid rgb(195, 195, 195);
+}
+.autocomplet-second-div:first-child{
+    border-radius: 15px 0 0 15px;
+    border: none;
+}
+.autocomplet-second-div:last-child{
+    border: none;
+}
+.autocomplet-second-div.auto-btn{
+    width: 50%;
+    border-radius: 0 15px 15px 0;
+}
+.autocomplet-second-div.auto-btn button{
+    background-color: #043273;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px ;
+    font-size: 1.1rem;
+}
+
+@media (width <= 1024px) {
+    .Hero{
+        padding: 0 1.5rem;
+    }
+    .hero-head-div{
+        font-size: 1.3rem;
+    }
+    .hero-num-rais-main{
+        width: 100%;
+        height: 4.5rem;
+        text-align: center;
+    }
+    .hero-num-rais div{
+        border: none;
+        display: block;
+    }
+    .autocomplete-main{
+        width: 100%;
+        border-radius: 15px;
+        height: 100%;
+    }
+    .autocomplet-second-div{
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .autocomplet-second-div:first-child{
+        border-radius: 15px 15px 0 0;
+    }
+    .autocomplet-second-div.auto-btn{
+        width: 100%;
+        border-radius: 0 0 15px 15px ;
+        height: 100%;
+        padding: 0 1rem 1rem 1rem;
+    }
+    .autocomplet-second-div.auto-btn button{
+        width: 100%;
+        height: 3rem;
+    }
+    .autocomplet-second-div:nth-child(2){
+        border-top: 1px solid rgb(178, 175, 175);
+        border-bottom: 1px solid rgb(178, 175, 175);
+    }
+
+}
+@media (width <= 600px){
+    .hero-num-rais div{
+        font-size: .6rem;
+    }
+    .hero-num-rais div p:first-child{
+        font-size: 1rem;
+        margin-right: .5rem;
+    }
+}
