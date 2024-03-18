@@ -224,4 +224,9 @@
         margin: 0 3rem;
         width: 140px;
     }
+    .scroll-sec-div {
+        display: flex;
+        animation: scrollAnimation 60s linear infinite;
+        /* Adjust animation duration as needed */
+    }
 }
