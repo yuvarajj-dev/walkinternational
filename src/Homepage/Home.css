@@ -1,5 +1,5 @@
 .Hero {
-    height: 100dvh;
+    height: 100%;
     background-color: #013a8b;
     font-family: "Sora", sans-serif;
 }
@@ -14,117 +14,214 @@
 }
 
 .hero-num-rais-main {
-    border-radius: 15px; /*1*/
+    border-radius: 15px;
+    /*1*/
     background: linear-gradient(270deg, rgb(3, 76, 181) 0%, rgb(6, 176, 239) 35%, rgb(3, 76, 181) 100%);
     height: 3.5rem;
     width: 60%;
     padding: 2px;
 }
-.hero-num-rais{
+
+.hero-num-rais {
     width: 100%;
     height: 100%;
     border-radius: 15px;
     background-color: #013a8b;
     padding: 5px;
 }
-.hero-num-rais div{
+
+.hero-num-rais div {
     display: flex;
-    align-items: center ;
+    align-items: center;
 }
-.hero-num-rais div p:first-child{
+
+.hero-num-rais div p:first-child {
     font-size: 1.7rem;
     margin-right: .5rem;
 }
-.auto-com-main{
+
+.auto-com-main {
     padding: 2px;
     background-color: #013a8b;
     width: 70%;
     height: 6rem;
 }
-.autocomplete-main{
-    border-radius: 15px; /*1*/
+
+.autocomplete-main {
+    border-radius: 15px;
+    /*1*/
     background: linear-gradient(270deg, rgb(3, 76, 181) 0%, rgb(6, 176, 239) 35%, rgb(3, 76, 181) 100%);
     height: 5.5rem;
     width: 70%;
     padding: 2px;
 }
-.autocomplet-second-div{
+
+.autocomplet-second-div {
     width: 100%;
     height: 100%;
     background-color: #fff;
     padding: 5px;
     border-left: 1px solid rgb(195, 195, 195);
 }
-.autocomplet-second-div:first-child{
+
+.autocomplet-second-div:first-child {
     border-radius: 15px 0 0 15px;
     border: none;
 }
-.autocomplet-second-div:last-child{
+
+.autocomplet-second-div:last-child {
     border: none;
 }
-.autocomplet-second-div.auto-btn{
+
+.autocomplet-second-div.auto-btn {
     width: 50%;
     border-radius: 0 15px 15px 0;
 }
-.autocomplet-second-div.auto-btn button{
+
+.autocomplet-second-div.auto-btn button {
     background-color: #043273;
     color: white;
     width: 100%;
     height: 100%;
-    border-radius: 15px ;
+    border-radius: 15px;
     font-size: 1.1rem;
 }
 
-@media (width <= 1024px) {
-    .Hero{
+.scroll-div {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-M img {
+    margin: 0 4rem;
+    width: 200px;
+}
+
+.scroll-sec-div {
+    display: flex;
+    animation: scrollAnimation 60s linear infinite;
+    /* Adjust animation duration as needed */
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.plane-animation {
+    animation: moveUpDown 1.5s ease-in-out infinite alternate, changeOpacity 4s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes changeOpacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+@media (width <=1024px) {
+    .Hero {
         padding: 0 1.5rem;
     }
-    .hero-head-div{
+
+    .hero-head-div {
         font-size: 1.3rem;
     }
-    .hero-num-rais-main{
+
+    .hero-num-rais-main {
         width: 100%;
         height: 4.5rem;
         text-align: center;
     }
-    .hero-num-rais div{
+
+    .hero-num-rais div {
         border: none;
         display: block;
     }
-    .autocomplete-main{
+
+    .autocomplete-main {
         width: 100%;
         border-radius: 15px;
         height: 100%;
     }
-    .autocomplet-second-div{
+
+    .autocomplet-second-div {
         width: 100%;
         padding: 1.5rem;
     }
-    .autocomplet-second-div:first-child{
+
+    .autocomplet-second-div:first-child {
         border-radius: 15px 15px 0 0;
     }
-    .autocomplet-second-div.auto-btn{
+
+    .autocomplet-second-div.auto-btn {
         width: 100%;
-        border-radius: 0 0 15px 15px ;
+        border-radius: 0 0 15px 15px;
         height: 100%;
         padding: 0 1rem 1rem 1rem;
     }
-    .autocomplet-second-div.auto-btn button{
+
+    .autocomplet-second-div.auto-btn button {
         width: 100%;
         height: 3rem;
     }
-    .autocomplet-second-div:nth-child(2){
+
+    .autocomplet-second-div:nth-child(2) {
         border-top: 1px solid rgb(178, 175, 175);
         border-bottom: 1px solid rgb(178, 175, 175);
     }
 
+    .scroll-M img {
+        margin: 0 3rem;
+        width: 170px;
+    }
+
+    .scroll-sec-div {
+        display: flex;
+        animation: scrollAnimation 80s linear infinite;
+        /* Adjust animation duration as needed */
+    }
+
 }
-@media (width <= 600px){
-    .hero-num-rais div{
+
+@media (width <=600px) {
+    .hero-num-rais div {
         font-size: .6rem;
     }
-    .hero-num-rais div p:first-child{
+
+    .hero-num-rais div p:first-child {
         font-size: 1rem;
         margin-right: .5rem;
+    }
+
+    .scroll-M img {
+        margin: 0 3rem;
+        width: 140px;
     }
 }

@@ -3,7 +3,7 @@ import "./Auto.css";
 
 export default function Autocomplete(props) {
   const [inputValue, setInputValue] = useState('');
-  const [suggestions, setSuggestions] = useState([]);
+  const [suggestions, setSuggestions] = useState([...props.arr]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
   // Sample arrays of values

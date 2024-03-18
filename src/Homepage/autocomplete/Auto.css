@@ -43,7 +43,7 @@
     margin: .5rem 0;
     color: #05367a;
     position: relative;
-    z-index: 99;
+    z-index: 9;
     cursor: pointer; /* Add cursor pointer for better UX */
     padding: .5rem; /* Add padding for better spacing */
 }
