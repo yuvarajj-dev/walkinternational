@@ -3,6 +3,7 @@ import "./Home.css"
 import gsap from 'gsap'
 import { Circ } from 'gsap'
 import Autocomplete from './autocomplete/Autocomplete'
+import Carusel from './Infinity-car/Carusel'
 
 
 export default function Home() {
@@ -54,7 +55,6 @@ export default function Home() {
     return (
         <>
             <div className='Hero'>
-
                 <div className='block justify-evenly mx-auto lg:pt-32 xl:pt-32  pt-20'>
                     {/* Heaing div */}
                     <div className='hero-head-div flex justify-center text-center '>
@@ -92,6 +92,9 @@ export default function Home() {
                         <div className='autocomplet-second-div auto-btn'>
                             <button>Search</button>
                         </div>
+                    </div>
+                    <div className='bg-white'>
+                        <Carusel />
                     </div>
                 </div>
             </div>

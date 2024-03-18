@@ -3,7 +3,6 @@
     min-height: 3rem;
     font-family: "Sora", sans-serif;
 }
-
 .nav-logo {
     width: 15rem;
     height: 5rem;
@@ -31,6 +30,7 @@
     height: 24px;
     fill: #082f49!important;
 }
+
 .navbar-sec-div{
     border-left: 1px solid rgb(209, 209, 209);
 }
@@ -57,7 +57,8 @@
 
 @media (width <= 1024px){
     .navbar{
-        min-height: 1rem;
+        min-height: 1.5rem;
+        padding: .6rem 1rem;
     }
     .navbar-sec-div{
         border: none;
@@ -70,7 +71,8 @@
     padding: 1rem 1.5rem;
     font-family: "Sora", sans-serif;
     color: #013a8b!important;
-    position: relative;
+    position: absolute;
+    width: 100%;
     z-index: 10;
     transition: transform 0.5s ease-in-out;
 }
