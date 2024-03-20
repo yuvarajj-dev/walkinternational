@@ -1,0 +1,50 @@
+.Feature {
+    height: 100dvh;
+    background-color: rgb(242, 243, 247);
+}
+
+.country-bg-div {
+    background: linear-gradient(270deg, rgb(3, 76, 181) 0%, rgb(6, 176, 239) 35%, rgb(3, 76, 181) 100%);
+}
+
+.country-flag-div {
+    background-color: #fff;
+}
+
+.country-flag-div img {
+    width: 48px;
+    height: 24px;
+}
+
+.w-h-76 {
+    height: 76px;
+    width: 76px;
+}
+
+.w-h-81 {
+    height: 81px;
+    width: 81px;
+}
+
+.animate {
+    animation-duration: 0.7s;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+.pop {
+    animation-name: animate-pop;
+}
+
+@keyframes animate-pop {
+    0% {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
