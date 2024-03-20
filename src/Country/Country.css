@@ -1,0 +1,15 @@
+.Country-main-div{
+    background-color: rgb(255, 255, 255);
+    font-family: "Sora", sans-serif;
+    padding: 0 1.5rem;
+}
+.country-para{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #042a60;
+}
+@media (width <= 600px){
+    .country-para{
+        font-size: .7rem;
+    }
+}

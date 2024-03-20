@@ -145,7 +145,7 @@
 
 
 
-@media (width <=1024px) {
+@media (width <=1023px) {
     .Hero {
         padding: 0 1.5rem;
     }

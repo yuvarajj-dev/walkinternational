@@ -104,7 +104,7 @@ export default function Home() {
                             </div>
                         </marquee>
                     </div>
-                    <div className='flex mx-auto'>
+                    <div className='flex mx-auto mt-5'>
                         <div className='flex mx-auto'>
                             <svg class="plane plane-animation" xmlns="http://www.w3.org/2000/svg" width="31" height="68" viewBox="0 0 31 68" fill="none">
                                 <path class="contrail" d="M16.533 0.116638H14.1562V44.6801H16.533V0.116638Z" fill="url(#paint0_linear_1810_6439)"></path>
