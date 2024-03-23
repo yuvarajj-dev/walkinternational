@@ -1,0 +1,40 @@
+.Student{
+    background-image: url("/public/bg-sudent.jpg");
+    height: 100dvh;
+}
+.Student-first{
+    text-align: start!important;
+}
+.Student-first img{
+    width: 450px;
+}
+.student-bg-div{
+    border-radius: 15px;
+    height: 245px;
+    padding: 0 2px;
+    
+    background: linear-gradient(270deg, rgb(3, 76, 181) 0%, rgb(6, 176, 239) 35%, rgb(3, 76, 181) 100%);
+}
+.student-bg-div > div > img{
+    border-radius: 15px;
+}
+.student-bg-img-div{
+    bottom: 0;
+    right: 0;
+    color: rgb(248, 249, 251);
+    font-weight: 700;
+}
+.student-bg-img-div > div{
+    width: 100px;
+    background-color: white;
+    margin: 0rem 0 0 4rem;
+}
+.Student-swiper{
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.Student-swiper > marquee{
+    height: 45rem;
+    margin: 0 2.5rem;
+}
+

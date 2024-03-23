@@ -1,0 +1,26 @@
+.first-div{
+    width: 280px;
+    height: 190px;
+}
+.first-div img{
+    width: 100%;
+    height: 100%;
+}
+.card-logo img{
+    width: 120px;
+    height: 48px;
+}
+.course{
+    color: rgb(105, 101, 93);
+}
+
+@media (width <= 600px){
+    .first-div {
+        width: 170px;
+        height: 140px;
+    }
+    .first-div img{
+        width: 100%;
+        height: 100%;
+    }
+}

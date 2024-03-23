@@ -94,7 +94,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className='scroll-div'>
-                        <marquee behavior="scroll" className='scroll-M ' direction="top" scrollamount="2" loop='-1' >
+                        <marquee behavior="scroll" className='scroll-M ' direction="left" scrollamount="2" loop='50' >
                             <div className='flex my-10 scroll-sec-div'>
                                 {
                                     Images_array.map((val, ind) => (

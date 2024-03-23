@@ -3,6 +3,7 @@ import Country from './Country/Country';
 import Feature from './Feature\'s/Feature';
 import Home from './Homepage/Home';
 import Navbar from './Navbar/Navbar';
+import Student from './Student-Section/Student';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Country />
       <Feature />
+      <Student />
     </>
   );
 }

@@ -1,9 +1,10 @@
 .Feature {
-    height: 100dvh;
+    height: 100%;
     background-color: rgb(242, 243, 247);
 }
 
 .country-bg-div {
+    
     background: linear-gradient(270deg, rgb(3, 76, 181) 0%, rgb(6, 176, 239) 35%, rgb(3, 76, 181) 100%);
 }
 
