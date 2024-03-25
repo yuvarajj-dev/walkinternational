@@ -1,0 +1,17 @@
+.Cource{
+    background-color: #f2f3f7;
+}
+.Cor-Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgb(233, 233, 253);
+}
+.Cor-Card:hover{
+    background-color: #fff;
+}
+.Cor-Card >div> img{
+    width: 50px;
+    margin: auto;
+}

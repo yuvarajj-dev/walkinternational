@@ -1,5 +1,6 @@
 import './App.css';
 import Country from './Country/Country';
+import Cource from './Courses/Cource';
 import Feature from './Feature\'s/Feature';
 import Home from './Homepage/Home';
 import Navbar from './Navbar/Navbar';
@@ -13,7 +14,8 @@ function App() {
       <Home />
       <Country />
       <Feature />
-      <Student />
+      {/* <Student /> */}
+      <Cource />
     </>
   );
 }
