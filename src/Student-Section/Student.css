@@ -58,7 +58,6 @@
         transform: translateY(0);
     }
 }
-
 @media (width <= 1023px){
     .Student{
         height: 70vh;

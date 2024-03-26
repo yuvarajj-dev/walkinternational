@@ -1,0 +1,63 @@
+.Num {
+    background-color: rgb(242, 243, 247);
+    height: 100dvh;
+}
+.first-img{
+    border-radius: 0 150px 150px 0;
+    overflow: hidden;
+    width: 45%;
+    position: absolute;
+    margin: 5rem 5rem 5rem 0;
+    top: -20px;
+    left: -350px;
+    z-index: 4;
+}
+.first-img > img{
+    width: 100%;
+}
+.second-img{
+    border-radius: 150px 0 0 150px ;
+    overflow: hidden;
+    width: 45%;
+    margin: 5rem 0rem 5rem 5rem;
+    position: absolute;
+    z-index: 4;
+    top: -20px;
+    right: -350px;
+}
+
+.center-img{
+    width: 40%;
+    padding: 5rem 0 0 0;
+}
+.num-count{
+    border-radius: 30px;
+}
+@media (width <= 768px) {
+    .Num{
+        height: 70dvh;
+    }
+    .number-cout{
+        font-size: 25px;
+    }
+    .text-cout{
+        font-size: 11px;
+    }
+    .num-count{
+        border-radius: 25px;
+    }
+}
+@media (width <= 500px) {
+    .Num{
+        height: 50dvh;
+    }
+    .number-cout{
+        font-size: 20px;
+    }
+    .text-cout{
+        font-size: 9px;
+    }
+    .num-count{
+        border-radius: 20px;
+    }
+}

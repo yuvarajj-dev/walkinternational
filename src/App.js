@@ -4,6 +4,7 @@ import Cource from './Courses/Cource';
 import Feature from './Feature\'s/Feature';
 import Home from './Homepage/Home';
 import Navbar from './Navbar/Navbar';
+import Num from './Num_Count/Num';
 import Student from './Student-Section/Student';
 
 
@@ -16,6 +17,7 @@ function App() {
       <Feature />
       <Student />
       <Cource />
+      <Num />
     </>
   );
 }
