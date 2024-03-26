@@ -14,7 +14,7 @@ function App() {
       <Home />
       <Country />
       <Feature />
-      {/* <Student /> */}
+      <Student />
       <Cource />
     </>
   );

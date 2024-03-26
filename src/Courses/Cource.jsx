@@ -18,8 +18,8 @@ export default function Cource() {
                     <Cource_Card showall={Showall} />
                 </div>
                 <div className='py-10 flex view-all'>
-                    <div className='mx-auto flex items-center gap-3'>
-                        <button onClick={()=>{Showbtn()}} className='xl:text-xl lg:text-xl text-sm text-blue-900 font-semibold'>{Showall ? 'SHOW LESS' : 'VIEW ALL'}</button>
+                    <div className='mx-auto flex items-center gap-3' onClick={()=>{Showbtn()}}>
+                        <button  className='xl:text-xl lg:text-xl text-sm text-blue-900 font-semibold'>{Showall ? 'SHOW LESS' : 'VIEW ALL'}</button>
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="8" fill="none" class="rotate-0"><g clip-path="url(#arrow-down-small_svg__a)">
                             <path fill="#002147" d="M17.226 2.06c.244-.159.584-.267.705-.493.126-.239.043-.594.046-.897.003-.452 0-.186 0-.668L8.986 2.895.004.005c0
                          .676.01.6-.005 1.243-.005.24.062.382.27.516C3.113 3.58 6.142 5.49 8.986 7.313c2.686-1.722 5.557-3.524 8.24-5.253Z">

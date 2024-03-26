@@ -18,12 +18,6 @@ const Student_data = [
         Student_courses: "Environmental Engineering"
     },
     {
-        Student_picture_name: "Logesh-V",
-        Student_picture_path: "./Student Photos/Logesh-V.jpeg",
-        Student_logo: "./Student Logos/University-of-Bremen.png",
-        Student_courses: "Computer Engineering"
-    },
-    {
         Student_picture_name: "Naren-Ayyaswamy",
         Student_picture_path: "./Student Photos/Naren-Ayyaswamy.jpeg",
         Student_logo: "./Student Logos/Trent-University.png",
@@ -65,23 +59,12 @@ const Student_data = [
         Student_logo: "./Student Logos/Queen-Mary-University-of-London.png",
         Student_courses: "Mechanical Engineering"
     },
-    {
-        Student_picture_name: "Jenie-Joseph",
-        Student_picture_path: "./Student Photos/Jenie-Joseph.jpeg",
-        Student_logo: "./Student Logos/Technical-University-of-Munich.png",
-        Student_courses: "Computer Science"
-    },
+    
     {
         Student_picture_name: "Ananya-Rajagopal",
         Student_picture_path: "./Student Photos/Ananya-Rajagopal.jpeg",
         Student_logo: "./Student Logos/Georgia-Institute-Of-Technology.png",
         Student_courses: "Biochemistry"
-    },
-    {
-        Student_picture_name: "Prathish-Kumar",
-        Student_picture_path: "./Student Photos/Prathish-Kumar.jpeg",
-        Student_logo: "./Student Logos/University-of-Liverpool.png",
-        Student_courses: "Civil Engineering"
     },
     {
         Student_picture_name: "Rushwant-Gnanasekar",
@@ -102,12 +85,6 @@ const Student_data = [
         Student_courses: "Environmental Engineering"
     },
     {
-        Student_picture_name: "Logesh-V",
-        Student_picture_path: "./Student Photos/Logesh-V.jpeg",
-        Student_logo: "./Student Logos/University-of-Bremen.png",
-        Student_courses: "Computer Engineering"
-    },
-    {
         Student_picture_name: "Naren-Ayyaswamy",
         Student_picture_path: "./Student Photos/Naren-Ayyaswamy.jpeg",
         Student_logo: "./Student Logos/Trent-University.png",
@@ -150,22 +127,10 @@ const Student_data = [
         Student_courses: "Mechanical Engineering"
     },
     {
-        Student_picture_name: "Jenie-Joseph",
-        Student_picture_path: "./Student Photos/Jenie-Joseph.jpeg",
-        Student_logo: "./Student Logos/Technical-University-of-Munich.png",
-        Student_courses: "Computer Science"
-    },
-    {
         Student_picture_name: "Ananya-Rajagopal",
         Student_picture_path: "./Student Photos/Ananya-Rajagopal.jpeg",
         Student_logo: "./Student Logos/Georgia-Institute-Of-Technology.png",
         Student_courses: "Biochemistry"
-    },
-    {
-        Student_picture_name: "Prathish-Kumar",
-        Student_picture_path: "./Student Photos/Prathish-Kumar.jpeg",
-        Student_logo: "./Student Logos/University-of-Liverpool.png",
-        Student_courses: "Civil Engineering"
     },
 ];
 
