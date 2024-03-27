@@ -1,0 +1,15 @@
+.Couch{
+    height: 100dvh;
+    width: 100%;
+    background-image: url("/public/Our-expert-coaching.jpg");
+    background-size: cover;
+}
+.couch-bg > img{
+    height: 100%;
+    width: 100%;
+}
+.couch-brand{
+    width: 90%;
+    height: 10rem;
+    background-color: #fff;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import Couch from './Couching/Couch';
 import Country from './Country/Country';
 import Cource from './Courses/Cource';
 import Feature from './Feature\'s/Feature';
@@ -18,6 +19,7 @@ function App() {
       <Student />
       <Cource />
       <Num />
+      <Couch />
     </>
   );
 }

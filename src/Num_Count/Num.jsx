@@ -15,7 +15,7 @@ export default function Num() {
                     <div>
                         <Num_count number={650}   text={"Universities processed"} />
                         <Num_count number={99}   text={"or higher visa success rate"}/>
-                        <Num_count number={40}   text={"Tuition fee scholarship granted"} />
+                        <Num_count number={4000}   text={"Tuition fee scholarship granted"} />
                     </div>
                 </div>
                 <div className='xl:flex lg:flex hidden  justify-between relative z-10 '>

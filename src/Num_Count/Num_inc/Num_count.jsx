@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -6,6 +6,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Num_count(props) {
     const countRef = useRef(null);
+
+    const [num , setnum] = useState(props.number)
 
     useEffect(() => {
         gsap.utils.toArray(".number-cout").forEach(element => {
@@ -39,7 +41,7 @@ export default function Num_count(props) {
         <>
             <div className='lg:w-56 xl:w-60 md:w-44 sm:w-36 w-28 px-3 xl:h-32 lg:h-32 md:h-24 xl:my-16 lg:my-14 md:my-11 my-8 num-count flex justify-start items-center bg-white'>
                 <div>
-                    <h1 ref={countRef} className='xl:text-4xl lg:text-3xl md:text-xl number-cout text-blue-400 font-bold'>1500+</h1>
+                    <h1 ref={countRef} className='xl:text-4xl lg:text-3xl md:text-xl number-cout text-blue-400 font-bold'>{num}</h1>
                     <p className='text-black text-cout font-bold md:text-sm'>{props.text}</p>
                 </div>
             </div>

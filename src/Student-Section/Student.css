@@ -47,7 +47,7 @@
     }
 }
 .scrolls-1 {
-    animation: scroll-1 8s linear 15; /* Adjust the duration to increase speed */
+    animation: scroll-1 8s linear infinite; /* Adjust the duration to increase speed */
 }
 
 @keyframes scroll-1 {
