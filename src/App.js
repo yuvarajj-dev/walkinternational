@@ -7,6 +7,7 @@ import Home from './Homepage/Home';
 import Navbar from './Navbar/Navbar';
 import Num from './Num_Count/Num';
 import Student from './Student-Section/Student';
+import Test from './Testimoneal/Test';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Cource />
       <Num />
       <Couch />
+      <Test />
     </>
   );
 }
