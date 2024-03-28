@@ -1,15 +1,95 @@
-.Couch{
-    height: 100dvh;
-    width: 100%;
+.Couch {
     background-image: url("/public/Our-expert-coaching.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
-.couch-bg > img{
+
+.couch-bg>img {
     height: 100%;
     width: 100%;
 }
-.couch-brand{
+
+.couch-swiper {
+    height: 100%;
+}
+
+.couch-blue {
+    margin-bottom: -40px;
+    overflow: visible;
+    position: relative;
+}
+
+.couch-inside {
+    width: 80%;
+    height: 6rem;
+    background-color: #1e3a8a;
+    border-radius: 6rem;
+}
+.couch-expert{
+    color: white;
+}
+.couch-expert.wt{
+    background-color: #fff;
+    color: black !important;
+    border-radius: 8rem;
+    margin: .2rem;
+    padding: .2rem;
+}
+.couch-expert>img {
+    width: 50px;
+}
+
+.couch-brand {
     width: 90%;
     height: 10rem;
     background-color: #fff;
+    border-radius: 15rem 15rem 0 0;
+}
+
+.swiperdata {
+    width: 150px;
+}
+
+@media (width <=1024px) {
+    .Couch {
+        background-size: cover;
+    }
+    .couch-blue{
+        margin-bottom: -35px;
+    }
+    .couch-inside{
+        height: 4.5rem;
+    }
+    .couch-brand {
+        height: 7rem;
+    }
+
+    .swiperdata {
+        width: 130px;
+    }
+}
+
+@media (width <=550px) {
+    .Couch {
+        background-size: cover;
+        display: none;
+    }
+
+    .couch-brand {
+        height: 8rem;
+    }
+    .couch-inside {
+        height: 3rem;
+    }
+
+    .couch-expert>img {
+        width: 20px;
+    }
+    .couch-expert >p{
+        font-size: 10px;
+    }
+
+    .swiperdata {
+        width: 100px;
+    }
 }

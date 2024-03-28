@@ -1,7 +1,7 @@
 .Student {
     background-image: url("/public/bg-sudent.jpg");
     background-repeat: no-repeat;
-    height: 87vh;
+    height: 100vh;
     padding: 5rem 5rem;
     overflow: hidden;
 }
@@ -60,7 +60,7 @@
 }
 @media (width <= 1023px){
     .Student{
-        height: 70vh;
+        height: 100vh;
     }
     .Student-left-side{
         display: none;

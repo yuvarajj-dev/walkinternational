@@ -5,8 +5,8 @@ import Num_count from './Num_inc/Num_count';
 export default function Num() {
     return (
         <>
-            <div className='Num overflow-hidden '>
-                <div className=' absolute z-30 w-full flex justify-around xl:mt-20 mt-1 '>
+            <div className='Num overflow-hidden  '>
+                <div className=' absolute z-30 w-full lg:pb-7 flex justify-around xl:mt-20 mt-1 '>
                     <div className=' '>
                         <Num_count number={1500}   text={"Reviews across all platforms"} />
                         <Num_count number={3000}   text ={"Top admits"} />
