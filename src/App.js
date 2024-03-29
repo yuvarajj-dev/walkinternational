@@ -1,4 +1,5 @@
 import './App.css';
+import Client from './Client_Section/Client';
 import Couch from './Couching/Couch';
 import Country from './Country/Country';
 import Cource from './Courses/Cource';
@@ -22,6 +23,7 @@ function App() {
       <Num />
       <Couch />
       <Test />
+      <Client />
     </>
   );
 }

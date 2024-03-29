@@ -1,0 +1,25 @@
+.Client{
+    background-image: url("/public/Client/Client_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.client-quation-div{
+    width: 250px;
+    top: 4rem;
+}
+.client-img{
+    width: 100px;
+    border-radius: 50%;
+}
+.client-img > img{
+    width: 100%;
+    border-radius: 50%;
+}
+.client-dis{
+    width: 50%;
+}
+@media (width <= 600px){
+    .client-dis{
+        width: 100%;
+    }
+}

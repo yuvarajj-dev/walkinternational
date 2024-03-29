@@ -15,7 +15,7 @@ export default function Test() {
                                 <div>
                                     <img src={val.test_path} alt={val.test_name} className='test-person' />
                                 </div>
-                                <div className='flex  gap-4 relative -top-20 -left-4'>
+                                <div className='flex  gap-4 relative '>
                                     <div className='flag-div '>
                                         <img src=".\Testimoneal\usa_flag.png" alt="flag" />
                                     </div>
