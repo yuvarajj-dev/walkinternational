@@ -35,7 +35,7 @@
     width: 50%;
 }
 .scrolls {
-    animation: scroll 25s linear infinite; /* Adjust the duration to increase speed */
+    animation: scroll 20s linear infinite; /* Adjust the duration to increase speed */
 }
 
 @keyframes scroll {
