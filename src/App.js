@@ -4,6 +4,7 @@ import Couch from './Couching/Couch';
 import Country from './Country/Country';
 import Cource from './Courses/Cource';
 import Feature from './Feature\'s/Feature';
+import Flight from './Flight_Animation/Flight';
 import Home from './Homepage/Home';
 import Navbar from './Navbar/Navbar';
 import Num from './Num_Count/Num';
@@ -24,6 +25,7 @@ function App() {
       <Couch />
       <Test />
       <Client />
+      {/* <Flight /> */}
     </>
   );
 }

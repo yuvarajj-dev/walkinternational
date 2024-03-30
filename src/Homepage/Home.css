@@ -22,6 +22,9 @@
     padding: 2px;
 }
 
+.slider > img{
+    width: 30% !important;
+}
 .hero-num-rais {
     width: 100%;
     height: 100%;
@@ -87,32 +90,7 @@
     font-size: 1.1rem;
 }
 
-.scroll-div {
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-}
 
-.scroll-M img {
-    margin: 0 4rem;
-    width: 200px;
-}
-
-.scroll-sec-div {
-    display: flex;
-    animation: scrollAnimation 60s linear infinite;
-    /* Adjust animation duration as needed */
-}
-
-@keyframes scrollAnimation {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
 
 .plane-animation {
     animation: moveUpDown 1.5s ease-in-out infinite alternate, changeOpacity 4s ease-in-out infinite alternate;
@@ -197,16 +175,7 @@
         border-bottom: 1px solid rgb(178, 175, 175);
     }
 
-    .scroll-M img {
-        margin: 0 3rem;
-        width: 170px;
-    }
-
-    .scroll-sec-div {
-        display: flex;
-        animation: scrollAnimation 80s linear infinite;
-        /* Adjust animation duration as needed */
-    }
+   
 
 }
 
@@ -220,13 +189,5 @@
         margin-right: .5rem;
     }
 
-    .scroll-M img {
-        margin: 0 3rem;
-        width: 140px;
-    }
-    .scroll-sec-div {
-        display: flex;
-        animation: scrollAnimation 60s linear infinite;
-        /* Adjust animation duration as needed */
-    }
+    
 }

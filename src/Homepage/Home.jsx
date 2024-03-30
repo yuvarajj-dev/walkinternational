@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { Circ } from 'gsap'
 import Autocomplete from './autocomplete/Autocomplete'
 import Images_array from './Infinity-car/Carusel-data'
+import Marquee from 'react-fast-marquee'
 
 
 export default function Home() {
@@ -93,17 +94,15 @@ export default function Home() {
                             <button>Search</button>
                         </div>
                     </div>
-                    <div className='scroll-div'>
-                        <marquee behavior="scroll" className='scroll-M ' direction="left" scrollamount="2" loop='50' >
-                            <div className='flex my-10 scroll-sec-div'>
-                                {
-                                    Images_array.map((val, ind) => (
-                                        <img key={ind} src={val.path} alt={val.filename} className='image-scroll ' />
-                                    ))
-                                }
-                            </div>
-                        </marquee>
-                    </div>
+                    <Marquee  >
+                        <div className='flex w-52 my-10  ' >
+                            {
+                                Images_array.map((val, ind) => (
+                                    <img src={val.path} alt={val.filename} className='mx-12' />
+                                ))
+                            }
+                        </div>
+                    </Marquee>
                     <div className='flex mx-auto mt-5'>
                         <div className='flex mx-auto'>
                             <svg class="plane plane-animation" xmlns="http://www.w3.org/2000/svg" width="31" height="68" viewBox="0 0 31 68" fill="none">
