@@ -1,0 +1,83 @@
+.Truested {
+    background-color: rgb(242, 243, 247);
+    color: transparent;
+}
+.true-first{
+    width: 26%;
+    height: 600px;    
+}
+.true-first::after{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: 20;
+    opacity: .5;
+    border-radius: 40rem;
+}
+.true-name{
+    width: 70%;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.true-first > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40rem;
+}
+.true-second > img {
+    width: 100%;
+}
+
+.true-second {
+    width: 50%;
+}
+@media (width < 1024px){
+    .true-first{
+        width: 90%;
+        height: 100px; 
+        margin: 0 auto; 
+         
+    }
+    .true-first > img{
+        object-fit: cover;
+    }
+    .true-first::after{
+        content: " ";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        z-index: 20;
+        opacity: .5;
+        border-radius: 40rem;
+    }
+    .true-name{
+        width: 70%;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .true-first > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 40rem;
+    }
+    .true-second{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+@media (width < 700px){
+    .true-name{
+        font-size: 20px;
+    }
+}
+@media (width < 400px){
+    .true-name{
+        font-size: 15px;
+    }
+}

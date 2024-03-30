@@ -7,10 +7,11 @@
     color:  black;
 }
 .Accordian-tab{
-    border-top: 1px solid grey;
+    border-top: 1px solid rgb(197, 193, 193);
 }
+
 .Accordian-tab.last{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(197, 193, 193);
 }
 .accord-text > div > svg{
     width: 40px;
@@ -18,7 +19,7 @@
 .heading{
     color: rgb(1 53 111);
 }
-@media (width <= 600px){
+@media (width < 600px){
     .accord-text > p{
         font-size: 15px;
     }

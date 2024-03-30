@@ -11,6 +11,7 @@ import Navbar from './Navbar/Navbar';
 import Num from './Num_Count/Num';
 import Student from './Student-Section/Student';
 import Test from './Testimoneal/Test';
+import Trusted from './Trusted/Trusted';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Client />
       {/* <Horizondal /> */}
       <Accordian />
+      <Trusted />
     </>
   );
 }
