@@ -35,7 +35,7 @@
     width: 50%;
 }
 .scrolls {
-    animation: scroll 20s linear infinite; /* Adjust the duration to increase speed */
+    animation: scroll 45s linear infinite; /* Adjust the duration to increase speed */
 }
 
 @keyframes scroll {
@@ -43,16 +43,16 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-1000%);
+        transform: translateY(-2000%);
     }
 }
 .scrolls-1 {
-    animation: scroll-1 25s linear infinite; /* Adjust the duration to increase speed */
+    animation: scroll-1 40s linear infinite; /* Adjust the duration to increase speed */
 }
 
 @keyframes scroll-1 {
     0% {
-        transform: translateY(-1000%);
+        transform: translateY(-2000%);
     }
     100% {
         transform: translateY(0);
