@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     padding: 5rem 5rem;
     overflow: hidden;
-    height: 100vh;
+    height: 90vh;
 }
 
 .Student-window {
@@ -16,7 +16,7 @@
 }
 
 .student-bg-div {
-    width: 10rem;
+    width: 12rem;
     height: 100%;
     margin: 0 4rem;
 }
@@ -35,7 +35,7 @@
     width: 50%;
 }
 .scrolls {
-    animation: scroll 8s linear infinite; /* Adjust the duration to increase speed */
+    animation: scroll 25s linear infinite; /* Adjust the duration to increase speed */
 }
 
 @keyframes scroll {
@@ -47,7 +47,7 @@
     }
 }
 .scrolls-1 {
-    animation: scroll-1 8s linear infinite; /* Adjust the duration to increase speed */
+    animation: scroll-1 25s linear infinite; /* Adjust the duration to increase speed */
 }
 
 @keyframes scroll-1 {
@@ -59,7 +59,10 @@
     }
 }
 @media (width <= 1023px){
-    
+    .Student{
+        height: 70vh;
+        padding: 1rem 5rem;
+    }
     .Student-left-side{
         display: none;
     }
