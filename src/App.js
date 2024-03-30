@@ -1,11 +1,12 @@
+import Accordian from './Accordian/Accordian';
 import './App.css';
 import Client from './Client_Section/Client';
 import Couch from './Couching/Couch';
 import Country from './Country/Country';
 import Cource from './Courses/Cource';
 import Feature from './Feature\'s/Feature';
-import Flight from './Flight_Animation/Flight';
 import Home from './Homepage/Home';
+import Horizondal from './Horizondal Scroll/Horizondal';
 import Navbar from './Navbar/Navbar';
 import Num from './Num_Count/Num';
 import Student from './Student-Section/Student';
@@ -25,7 +26,8 @@ function App() {
       <Couch />
       <Test />
       <Client />
-      {/* <Flight /> */}
+      {/* <Horizondal /> */}
+      <Accordian />
     </>
   );
 }

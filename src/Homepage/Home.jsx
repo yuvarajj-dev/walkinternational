@@ -4,7 +4,6 @@ import gsap from 'gsap'
 import { Circ } from 'gsap'
 import Autocomplete from './autocomplete/Autocomplete'
 import Images_array from './Infinity-car/Carusel-data'
-import Marquee from 'react-fast-marquee'
 
 
 export default function Home() {

@@ -1,0 +1,15 @@
+.flight{
+    background-color: #fff;
+    height: 100vh;
+}
+
+
+.flight-img {
+    width: 250rem; /* Set the width of your image */
+    /* You can add more styling for your image here if needed */
+}
+
+.flight-img > img{
+    width: 100%;
+    height: 100%;
+}

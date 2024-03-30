@@ -1,0 +1,28 @@
+.accord{
+    background-color: rgb(242 243 247);
+}
+.Accordian{
+    width: 80%;
+    margin: auto;
+    color:  black;
+}
+.Accordian-tab{
+    border-top: 1px solid grey;
+}
+.Accordian-tab.last{
+    border-bottom: 1px solid grey;
+}
+.accord-text > div > svg{
+    width: 40px;
+}
+.heading{
+    color: rgb(1 53 111);
+}
+@media (width <= 600px){
+    .accord-text > p{
+        font-size: 15px;
+    }
+    .accord-text > div > svg{
+        width: 25px;
+    }
+}
