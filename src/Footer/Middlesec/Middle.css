@@ -1,0 +1,59 @@
+.Middle{
+    border-top: .1px solid rgb(111, 99, 99);
+    background-color: #013a8b;
+}
+.middle-container{
+    color: white;
+    font-size: 1.1rem;
+}
+.Address{
+    width: 20%;
+}
+.Address > div:first-child{
+    margin: 0 0 2rem 0;
+}
+.Address > div{
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.HQ-A{
+    width: 100%;
+    background-color: #08336f;
+    border-radius: 1rem;
+    font-size: 15px;
+    padding: 10px;
+    margin: .5rem 0;
+}
+.middle-links p{
+    margin: 1rem 0 ;
+    cursor: pointer;
+}
+.middle-links > div:first-child > p:first-child{
+    font-weight: 700;
+    margin: 0 0 ;
+    font-size: 20px;
+}
+.study-contry  p{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.study-contry >div:first-child> p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+.connet{
+    width: 20%;
+}
+.connet > p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (width <= 1024px){
+    .Address{
+        width: 100%;
+    }
+    .connet{
+        width: 100%;
+    }
+}

@@ -5,6 +5,7 @@ import Couch from './Couching/Couch';
 import Country from './Country/Country';
 import Cource from './Courses/Cource';
 import Feature from './Feature\'s/Feature';
+import Footer from './Footer/Footer';
 import Home from './Homepage/Home';
 import Horizondal from './Horizondal Scroll/Horizondal';
 import Navbar from './Navbar/Navbar';
@@ -30,6 +31,7 @@ function App() {
       {/* <Horizondal /> */}
       <Accordian />
       <Trusted />
+      <Footer />
     </>
   );
 }
