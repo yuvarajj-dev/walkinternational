@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./Middle.css"
+import Bottom from '../Bottom/Bottom'
 
 export default function Middlesec() {
     const [address, setAddress] = useState(false)
@@ -16,7 +17,7 @@ export default function Middlesec() {
     }
     return (
         <>
-            <div className='Middle xl:py-16 lg:py-16 lg:px-5 xl:px-5 py-16 px-5'>
+            <div className='Middle xl:pt-16 lg:pt-16 lg:px-5 xl:px-5 pt-16 px-5'>
                 <div className='middle-container xl:flex  lg:flex xl:justify-around lg:justify-around items-start '>
                     <div className="middle-links hidden xl:block lg:block  ">
                         <div className='flex justify-between items-center' ><p>Useful links</p> <img className='xl:hidden lg:hidden' src=".\Footer\svgexport-24.png" alt="downarrow" /></div>
@@ -35,7 +36,7 @@ export default function Middlesec() {
                         </div>
                     </div>
                     <div className="study-contry hidden xl:block lg:block">
-                        <p>Study Abroad</p>
+                        <p className='xl:text-xl lg:text-xl lg:font-bold xl:font-bold'>Study Abroad</p>
                         <p>Study in Canada</p>
                         <p>Study in UK</p>
                         <p>Study in Australia</p>
@@ -61,7 +62,7 @@ export default function Middlesec() {
                     <div className='Address '>
                         <div onClick={() => { Handleclick(1) }} className='HQ cursor-pointer '>
                             <div className='flex xl:items-center lg:items-center lg:justify-between justify-between items-center xl:justify-between'>
-                                <p className='mt-3 font-bold' >HQ:Haddows Road </p>
+                                <p className='mt-3 xl:mt-0 lg:mt-0 font-bold' >HQ:Haddows Road </p>
                                 <img className='' src=".\Footer\svgexport-24.png" alt="downarrow" />
                             </div>
                             <div className={`HQ-A ${address === 1 ? `show` : `hidden`} `}>
@@ -98,7 +99,7 @@ export default function Middlesec() {
                     </div>
                     <div className='connet'>
                         <p>Connect</p>
-                        <div className='flex xl:justify-between lg:justify-between justify-around items-center my-5' >
+                        <div className='flex xl:justify-between lg:justify-between justify-around items-center xl:my-5 lg:my-5 xl:py-0 lg:py-0 py-5' >
                             <div className='facebook'>
                                 <img src=".\Footer\facebook.png" alt="facebook" />
                             </div>
@@ -115,6 +116,7 @@ export default function Middlesec() {
                     </div>
                 </div>
             </div>
+            <Bottom />
         </>
     )
 }
