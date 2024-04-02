@@ -84,4 +84,3 @@ Please ensure that your pull request adheres to the project's coding conventions
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-Feel free to adjust the emojis or add more according to your preference!
