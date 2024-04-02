@@ -18,7 +18,6 @@
 .student-bg-div {
     width: 12rem;
     height: 100%;
-    margin: 0 4rem;
 }
 @media ((width >= 1024px) and (width <= 1200px)){
     .student-bg-div{
@@ -35,7 +34,7 @@
     width: 50%;
 }
 .scrolls {
-    animation: scroll 45s linear infinite; /* Adjust the duration to increase speed */
+    animation: scroll 40s linear infinite; /* Adjust the duration to increase speed */
 }
 
 @keyframes scroll {
