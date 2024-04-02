@@ -32,7 +32,10 @@
     padding: 5rem 0 0 0;
 }
 .num-count{
-    border-radius: 30px;
+    border-radius: 20px;
+}
+.num-text{
+    color: #0ea5e9;
 }
 @media (width <= 768px) {
     .Num{
@@ -45,7 +48,7 @@
         font-size: 11px;
     }
     .num-count{
-        border-radius: 25px;
+        border-radius: 20px;
     }
 }
 @media (width <= 500px) {
@@ -59,6 +62,6 @@
         font-size: 9px;
     }
     .num-count{
-        border-radius: 20px;
+        border-radius: 10px;
     }
 }
