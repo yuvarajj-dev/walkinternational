@@ -40,19 +40,19 @@
 
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translatex(0);
     }
     25%{
-        transform: translateX(-500%);
+        transform: translateY(-500%);
     }
     50%{
-        transform: translateX(-1000%);
+        transform: translateY(-1000%);
     }
     75%{
-        transform: translateX(-1500%);
+        transform: translateY(-1500%);
     }
     100% {
-        transform: translateX(-2000%);
+        transform: translateY(-2000%);
     }
 }
 .scrolls-1 {
