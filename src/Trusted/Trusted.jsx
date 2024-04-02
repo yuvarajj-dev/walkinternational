@@ -8,7 +8,7 @@ export default function Trusted() {
                 <div className='tuest-div xl:flex  lg:flex justify-around items-center'>
                     <div className='true-first flex justify-center items-center relative'>
                         <img src=".\Truested\Trusted-academic-institu-world.jpeg" alt="truested" className='z-20' />
-                        <div className='true-name font-extrabold absolute z-30 '>
+                        <div className='true-name text-center font-extrabold absolute z-30 '>
                             <p className=''>Trusted by <span className='text-blue-400'>650+</span> academic institutes across the world.</p>
                         </div>
                     </div>

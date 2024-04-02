@@ -94,17 +94,15 @@ export default function Home() {
                             <button>Search</button>
                         </div>
                     </div>
-
                     <marquee direction='left'>
-                        <div className='flex w-52 my-10  ' >
+                        <div className='flex w-40 my-11  ' >
                             {
                                 Images_array.map((val, ind) => (
-                                        <img key={ind} src={val.path} alt={val.filename} className='mx-12' />
+                                    <img key={ind} src={val.path} alt={val.filename} className='mx-12' />
                                 ))
                             }
                         </div>
                     </marquee>
-
                     <div className='flex mx-auto mt-5'>
                         <div className='flex mx-auto'>
                             <svg class="plane plane-animation" xmlns="http://www.w3.org/2000/svg" width="31" height="68" viewBox="0 0 31 68" fill="none">

@@ -26,7 +26,7 @@ export default function Clientcaro() {
                 {
                     Client_data.map((val, ind) => (
                         <SwiperSlide>
-                            <div key={ind} className="client-car-main relative -top-16 my-10">
+                            <div key={ind} className="client-car-main relative top-16 my-10 ">
                                 <div className='client-car ' >
                                     <div className='client-img mx-auto mt-16'>
                                         <img src={val.Client_path} alt={val.Client_name} />

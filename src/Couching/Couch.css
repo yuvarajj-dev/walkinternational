@@ -31,9 +31,10 @@
 .couch-expert.wt{
     background-color: #fff;
     color: black !important;
-    border-radius: 8rem;
-    margin: .2rem;
+    border-radius: 7rem;
+    margin: .4rem;
     padding: .2rem;
+    width: 25%;
 }
 .couch-expert>img {
     width: 50px;
@@ -48,6 +49,9 @@
 
 .swiperdata {
     width: 150px;
+}
+.mySwiper{
+    width: 80%;
 }
 
 @media (width <=1024px) {

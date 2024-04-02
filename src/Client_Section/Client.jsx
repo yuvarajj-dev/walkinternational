@@ -6,8 +6,8 @@ function Client() {
   return (
     <>
       <div className='Client'>
-        <div className='client-quation-div mx-auto relative z-10  '>
-          <img src=".\Client\Quaotation.svg" alt="Quation" className='client-q ' />
+        <div className='client-quation-div mx-auto relative z-30  '>
+          <img src=".\Client\Quaotation.svg" alt="Quation" className='client-q absolute ' />
         </div>
         <Clientcaro />
       </div>

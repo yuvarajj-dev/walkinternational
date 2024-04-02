@@ -27,23 +27,23 @@ export default function Couch() {
     <>
       <div className='Couch'>
         <div className='couch-blue flex justify-center items-end h-screen'>
-          <div className='couch-inside flex justify-around'>
+          <div className='couch-inside flex justify-between'>
             <div className='couch-expert wt flex gap-4 items-center' onClick={(e) => { handleclick(e) }}>
               <img src=".\Couch\couch icon\Our-expert-coaching.svg" alt="expert" />
-              <p className="xl:text-xl lg:text-xl md:text-lg sm:text-lg text-sm ">Our expert coaching</p>
+              <p className="xl:text-xl lg:text-lg md:text-sm sm:text-sm text-sm ">Our expert coaching</p>
             </div>
-            <div className='couch-expert flex gap-4 items-center' onClick={(e) => { handleclick(e) }}>
+            <div className='couch-expert flex justify-center gap-4 p-8 items-center' onClick={(e) => { handleclick(e) }}>
               <img src=".\Couch\couch icon\Loan-Partners.svg" alt="expert" />
-              <p className="xl:text-xl lg:text-xl md:text-lg sm:text-lg  ">Loan Partners</p>
+              <p className="xl:text-xl lg:text-lg md:text-sm sm:text-sm text-sm  ">Loan Partners</p>
             </div>
-            <div className='couch-expert flex gap-4 items-center' onClick={(e) => { handleclick(e) }}>
+            <div className='couch-expert flex justify-center p-8 items-center' onClick={(e) => { handleclick(e) }}>
               <img src=".\Couch\couch icon\Afflilate-Partners.svg" alt="expert" />
-              <p className="xl:text-xl lg:text-xl md:text-lg sm:text-lg text-sm ">Afflilate-Partners</p>
+              <p className="xl:text-xl lg:text-lg md:text-sm sm:text-sm text-sm ">Afflilate-Partners</p>
             </div>
           </div>
         </div >
         <div className='flex justify-center items-end couch-swiper ' >
-          <div className='couch-brand xl:pt-14 lg:pt-12 md:pt-16 sm:pt-8 pt-12 overflow-hidden'>
+          <div className='couch-brand xl:pt-16 lg:pt-16 md:pt-12 sm:pt-12 pt-12 overflow-hidden'>
             <CouchSwiper />
           </div>
         </div>
