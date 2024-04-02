@@ -18,6 +18,7 @@
 .student-bg-div {
     width: 12rem;
     height: 100%;
+    margin: 0 4rem;
 }
 @media ((width >= 1024px) and (width <= 1200px)){
     .student-bg-div{
@@ -40,6 +41,15 @@
 @keyframes scroll {
     0% {
         transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-500%);
+    }
+    50%{
+        transform: translateY(-1000%);
+    }
+    75%{
+        transform: translateY(-1500%);
     }
     100% {
         transform: translateY(-2000%);
