@@ -22,9 +22,7 @@
     padding: 2px;
 }
 
-.slider > img{
-    width: 30% !important;
-}
+
 .hero-num-rais {
     width: 100%;
     height: 100%;
@@ -89,8 +87,9 @@
     border-radius: 15px;
     font-size: 1.1rem;
 }
-
-
+.mark > img{
+    width: 10rem;
+}
 
 .plane-animation {
     animation: moveUpDown 1.5s ease-in-out infinite alternate, changeOpacity 4s ease-in-out infinite alternate;
