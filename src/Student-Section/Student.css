@@ -91,7 +91,7 @@
         height: 20rem;
         margin: 0 .5rem;
     }
-     @keyframes scroll {
+     @keyframes scroll5 {
         0% {
             transform: translateX(0);
         }
