@@ -6,7 +6,7 @@ export default function FSwiper(props) {
         <div className='lg:flex xl:flex  Student-Scroll'>
             <div className='student-bg-div '>
                 {Student_data.map((value, index) => (
-                    <div className='scrolls' key={index}>
+                    <div className='scrolls'>
                         <img src={value.Student_picture_path} alt="student-photo" className='swiper-anime' />
                     </div>
                 ))}

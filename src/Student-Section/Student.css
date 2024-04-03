@@ -37,7 +37,7 @@
     width: 50%;
 }
 
-.scrolls {
+.scroll {
     animation: scroll 45s linear infinite;
     /* Adjust the duration to increase speed */
 }
@@ -91,7 +91,7 @@
         height: 20rem;
         margin: 0 .5rem;
     }
-     /* @keyframes scroll {
+     @keyframes scroll {
         0% {
             transform: translateX(0);
         }
@@ -107,5 +107,5 @@
         100% {
             transform: translateX(0);
         }
-    } */
+    }
 }
