@@ -11,16 +11,7 @@ const Client_data = [
                     process were evident from the very beginning. They tailored their guidance to fit my unique 
                     strengths and ambitions, helping me identify the best-fit universities and programs in US 
                     and Germany for my academic and career goals, Thanks to Shalini and Darfini Mam. 
-                    They provided comprehensive information about the admission requirements, application
-                     deadlines, and even helped me craft an outstanding SOP that truly highlighted my potential.
-                     I had the pleasure of being taught by an exceptional IELTS and GRE instructors for my exam 
-                     preparation, I can recommend them strongly enough because their online classes were just as 
-                     useful as offline training. Thanks to Vandana mam and Vijayashree mam for helping me crack 
-                     those exams with good scores.
-                    I wholeheartedly recommend Walk International to any student seeking guidance and support 
-                    for their higher education aspirations. They are a team of dedicated professionals
-                     who genuinely care about their students’ success. I received the best scholarship 
-                     available for my programme and was admitted to New York University for the fall of 2023`
+                    `
   },
   {
     Client_name: 'Jenie-Joseph',
@@ -35,18 +26,12 @@ const Client_data = [
                 Shainy was an expert in this regard, providing me with detailed insights into various
                 universities in the UK, their academic programs, and their admission requirements. Th
                 e visa application process can be incredibly overwhelming, but they made it seem like a
-                breeze. They walked me through each step, ensuring that all necessary documents were 
-                meticulously prepared and submitted on time. Their attention to detail and knowledge 
-                of the intricacies of the UK visa process made a world of difference. They were always j
-                ust a phone call or email away, ready to address my concerns and provide clarity on any 
-                doubts I had. Their timely responses and willingness to go the extra mile ensured a seamless 
-                experience. Their expertise not only eased my transition but also helped me secure my studen
-                t visa without a hitch.`
+                breeze.`
   },
   {
     Client_name: 'Logesh-V',
     Client_path: '.\\Client\\Client images\\Logesh-V.jpeg',
-    Client_dis : `I am immensely thankful to Walk International team for their invaluable support and guidance
+    Client_dis: `I am immensely thankful to Walk International team for their invaluable support and guidance
                    throughout my journey to study abroad. Their expertise and unwavering commitment made the 
                     application process smooth and stress-free. They not only helped me choose the right 
                     university but also provided crucial insights that shaped my educational path. I highly

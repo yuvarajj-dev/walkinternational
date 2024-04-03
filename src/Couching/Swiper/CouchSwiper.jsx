@@ -1,6 +1,6 @@
 import Swiperdata from './Swiperdata';
-import { Swiper, SwiperSlide,  } from 'swiper/react';
-import { Autoplay} from 'swiper/modules';
+import { Swiper, SwiperSlide, } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 
@@ -11,13 +11,14 @@ export default function CouchSwiper() {
             <Swiper
                 slidesPerView={1}
                 spaceBetween={2}
+
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
-                  }}
+                }}
                 loop={true}
                 breakpoints={{
-                    320:{
+                    320: {
                         slidesPerView: 2,
                         spaceBetween: 2,
                     },
@@ -34,12 +35,12 @@ export default function CouchSwiper() {
                         spaceBetween: 100,
                     },
                 }}
-                modules={[Autoplay]}
+                modules={[Autoplay, Navigation]}
                 className="mySwiper"
             >
                 {
-                    Swiperdata.map((value,index)=>(
-                        <SwiperSlide key={index}> 
+                    Swiperdata.map((value, index) => (
+                        <SwiperSlide key={index}>
                             <img src={value.Couch_swiper_path} alt={value.Couch_name} className='swiperdata' />
                         </SwiperSlide>
                     ))
