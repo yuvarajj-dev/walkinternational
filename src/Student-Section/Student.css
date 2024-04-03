@@ -37,7 +37,7 @@
     width: 50%;
 }
 
-.scroll {
+.scrolls {
     animation: scroll 45s linear infinite;
     /* Adjust the duration to increase speed */
 }
